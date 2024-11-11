@@ -28,8 +28,12 @@ and dynamic environments.
 ## Overview of the Monitoring Setup
 ![Overview of the Monitoring Setup](/figures/SensorLocation1.png)
 *Figure 1. The actual positions of the lead zirconate titanate (PZT) transmitters (sensors 5 and 6) and receivers (sensors 1, 2, 3 and 4) are displayed in the left figure, while the precise coordinates (X: cm, Y: cm) are provided in the right figure.*
-
+  
 ![Exp Setup](/figures/ExpSetup.png)
 *Figure 2. Figure (a) shows the monitored structure, an aluminum plate, positioned on the first layer of a shelf. The data acquisition
 system was housed in a foam box on the second layer of the shelf. Figures (b) and (c) display the locations of the temperature,
 brightness, air pressure, and humidity sensors, which were mounted on the exterior of the foam box.*
+
+![Raw Signal](figures/FullRawSignal.png)
+*Figure 3. The original guided wave, consisting of 10,000 samples and lasting 10 ms. This guided wave was collected from path 5-4 at 20:18:06 on April
+24, 2021, at a measurement temperature of 16.57 ◦ C.*
