@@ -29,3 +29,7 @@ and dynamic environments.
 ![Overview of the Monitoring Setup](/figures/SensorLocation1.png)
 *Figure 1. The actual positions of the lead zirconate titanate (PZT) transmitters (sensors 5 and 6) and receivers (sensors 1, 2, 3 and 4) are displayed in the left figure, while the precise coordinates (X: cm, Y: cm) are provided in the right figure.*
 
+![Exp Setup](/figures/ExpSetup.png)
+*Figure 2. Figure (a) shows the monitored structure, an aluminum plate, positioned on the first layer of a shelf. The data acquisition
+system was housed in a foam box on the second layer of the shelf. Figures (b) and (c) display the locations of the temperature,
+brightness, air pressure, and humidity sensors, which were mounted on the exterior of the foam box.*
