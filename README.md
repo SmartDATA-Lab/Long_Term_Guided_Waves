@@ -25,4 +25,7 @@ shifts on guided waves, and the detection of minor damage that causes only sligh
 insights aim to assist researchers in developing more practical methods for structural health monitoring in uncontrolled
 and dynamic environments.
 
+## Overview of the Monitoring Setup
 ![Overview of the Monitoring Setup](/figures/SensorLocation1.png)
+*Figure 1. The actual positions of the lead zirconate titanate (PZT) transmitters (sensors 5 and 6) and receivers (sensors 1, 2, 3 and 4) are displayed in the left figure, while the precise coordinates (X: cm, Y: cm) are provided in the right figure.*
+
