@@ -25,4 +25,4 @@ shifts on guided waves, and the detection of minor damage that causes only sligh
 insights aim to assist researchers in developing more practical methods for structural health monitoring in uncontrolled
 and dynamic environments.
 
-![Overview of the Monitoring Setup]([figures/Sensor Location1.png](https://github.com/HanboYangC/Open_Guided_Waves/blob/main/figures/Sensor%20Location1.png))
+![Overview of the Monitoring Setup](/figures/Sensor Location1.png)
