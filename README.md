@@ -38,15 +38,16 @@ To address the need of public benchmark data for evaluating the effectiveness of
 ## Methods
 We developed a structural health monitoring system at the University of Utah in Salt Lake City to implement and investigate
 long-term monitoring under uncontrolled and dynamic conditions. The monitored structure was initially an intact aluminum
-plate of 53 cm x 53 cm x 3 mm. This plate was placed on the first layer of the shelf, as illustrated in part (a) of Fig. 1.
-![Overview of the Monitoring Setup](/figures/Fig1.png)
-*Figure 1. The actual positions of the lead zirconate titanate (PZT) transmitters (sensors 5 and 6) and receivers (sensors 1, 2, 3 and 4) are displayed in the left figure, while the precise coordinates (X: cm, Y: cm) are provided in the right figure.*  
-
-The monitored plate was placed on the first layer of a
+plate of 53 cm x 53 cm x 3 mm. This plate was placed on the first layer of the shelf, as illustrated in part (a) of Fig. 1.The monitored plate was placed on the first layer of a
 shelf, as shown in part (a) of Fig. 2. To generate and receive guided waves, we transmitted a 1 ms linear chirp with a center
 frequency ranging from 5 kHz to 350 kHz using sensors 5 and 6. Each response was recorded at a sampling rate of 1 MHz.
 Measurements were taken approximately every 8.6 seconds, with only the first 10, 000 samples (10 ms) recorded for each
 guided wave, as shown in part (a) of Fig. 3. Details of the sensors and data acquisition system are provided in Table.1
+
+
+
+![Overview of the Monitoring Setup](/figures/Fig1.png)
+*Figure 1. The actual positions of the lead zirconate titanate (PZT) transmitters (sensors 5 and 6) and receivers (sensors 1, 2, 3 and 4) are displayed in the left figure, while the precise coordinates (X: cm, Y: cm) are provided in the right figure.*  
 
 ![ExpSetup](/figures/Fig2.png)
 *Figure 2. Figure (a) shows the monitored structure, an aluminum plate, positioned on the first layer of a shelf. The data acquisition
@@ -56,3 +57,12 @@ brightness, air pressure, and humidity sensors, which were mounted on the exteri
 ![Raw Signal](/figures/Fig3.png)
 *Figure 3. The original guided wave, consisting of 10,000 samples and lasting 10 ms. This guided wave was collected from path 5-4 at 20:18:06 on April
 24, 2021, at a measurement temperature of 16.57 ◦ C.*
+
+![Table 1](/figures/Table1.png)
+*Table 1. Information of environmental sensors and DAQ system.*
+
+The monitored structure (an aluminum plate), along with the sensors and data acquisition systems, were placed in a small room188
+with four walls but no roof at the University of Utah, Salt Lake City, as illustrated in part (a) of Fig. 2. This setup exposed189
+the monitored structure and the structural health monitoring system to the outdoor environment under natural and dynamic190
+conditions. The monitored structure and guided wave sensors endured various harsh environmental conditions, as depicted in191
+Fig. 4. 
