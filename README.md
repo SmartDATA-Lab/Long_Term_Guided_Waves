@@ -44,8 +44,6 @@ frequency ranging from 5 kHz to 350 kHz using sensors 5 and 6. Each response was
 Measurements were taken approximately every 8.6 seconds, with only the first 10, 000 samples (10 ms) recorded for each
 guided wave, as shown in part (a) of Fig. 3. Details of the sensors and data acquisition system are provided in Table.1
 
-
-
 ![Overview of the Monitoring Setup](/figures/Fig1.png)
 *Figure 1. The actual positions of the lead zirconate titanate (PZT) transmitters (sensors 5 and 6) and receivers (sensors 1, 2, 3 and 4) are displayed in the left figure, while the precise coordinates (X: cm, Y: cm) are provided in the right figure.*  
 
@@ -61,8 +59,21 @@ brightness, air pressure, and humidity sensors, which were mounted on the exteri
 ![Table 1](/figures/Table1.png)
 *Table 1. Information of environmental sensors and DAQ system.*
 
-The monitored structure (an aluminum plate), along with the sensors and data acquisition systems, were placed in a small room188
-with four walls but no roof at the University of Utah, Salt Lake City, as illustrated in part (a) of Fig. 2. This setup exposed189
-the monitored structure and the structural health monitoring system to the outdoor environment under natural and dynamic190
-conditions. The monitored structure and guided wave sensors endured various harsh environmental conditions, as depicted in191
+## 0.1 Long-term Monitoring Under Uncontrolled and Dynamic Conditions
+
+The monitored structure (an aluminum plate), along with the sensors and data acquisition systems, were placed in a small room
+with four walls but no roof at the University of Utah, Salt Lake City, as illustrated in part (a) of Fig. 2. This setup exposed
+the monitored structure and the structural health monitoring system to the outdoor environment under natural and dynamic
+conditions. The monitored structure and guided wave sensors endured various harsh environmental conditions, as depicted in
 Fig. 4. 
+
+![Fig 4](/figures/Fig4.png)
+*Figure 4. During long-term monitoring, the monitored plate and the structural health monitoring system were exposed to
+various weather conditions, including rain, icing, and snow, as shown in Figures (a), (b), and (c), respectively.*
+
+## 0.2 Damage Generation and Damage Type Information
+Starting on April 17th, 2021, we introduced 13 types of damage to the monitored structure. Detailed information about the
+damage can be found in Table 2, and the damage positions and shapes are illustrated in Fig. 5. In total, 13 types of damage
+were generated, labeled from "D1" to "D13", with the severity of the damage increasing progressively. This dataset can serve as
+a benchmark for evaluating the performance of guided wave-based structural health monitoring method in identifying damage
+and assessing damage severity.
