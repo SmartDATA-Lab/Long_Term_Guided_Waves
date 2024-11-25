@@ -81,3 +81,22 @@ and assessing damage severity.
 ![Fig 5](/figures/Fig5.png)
 *Figure 5. Six types of damage were created sequentially on the center of the same aluminum plate from April 17, 2021 to
 September 19, 2021.*
+
+![Table 2](/figures/Table2.png)
+*Table 2. Description about the 13 types of damage on the aluminum plate.*
+
+## 1 Data Records
+Approximately five years of monitoring data are stored in 56 ".pickle" files. Each file is named in the format "measurements
+year_month.pickle," where the numbers in the filename represent the year and month of the measurements it contains. For
+example, measurements from April 2018 are stored in "measurements 2018_04.pickle". These files are publicly ac-
+cessible through the provided website link (https://figshare.com/articles/dataset/Open_Guided_Waves/26820892). Each ".pickle" file is a dictionary with 10 keys, as shown in Table 3. The key "guided wave" contains 8
+channels of ultrasonic guided waves. In the "measurements 2018_04.pickle" file, for example, the "guided wave"
+matrix has dimensions of 14, 997 × 8 × 2000, representing 14, 997 measurements with each measurement including 8 channels
+of guided waves from paths 5-1, 5-2, 5-3, 5-4, 6-1, 6-2, 6-3, and 6-4. Each guided wave comprises 2000 samples and lasts
+2 ms. The keys "datetime", "temperature", "humidity", "brightness", and "air pressure" record the measurement time and
+the corresponding environmental conditions (temperature, humidity, brightness, and air pressure) at the time of guided wave
+measurement. The key "damage tag" provides damage information for each measurement, with a value of 0 indicating no
+damage and values from 1 to 13 denoting damage types from "D1" to "D13", as shown in Table 2. Additionally, the key
+"weather tag" records the weather conditions from public weather website during each measurement, ranging from 0 to 5,
+with 0 representing "fair weather" and 1 to 5 corresponding to "precipitation," "light rain," "rain," "snow," and "mixed weather,"
+respectively. Note that the 15-mile distance between the meteorological station and the experiment location may introduce some imprecision in the weather records. The key information ("guided wave", "datetime", "temperature", "humidity", "brightness", "air pressure", "damage tag", and "weather tag") for each measurement file is explained under the "data inf" key within each file.
