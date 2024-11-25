@@ -181,4 +181,39 @@ the peak value of the correlation coefficient between the excitation signal and 
 time for guided waves collected from path 5-4 should be less than 0.1 ms. However, the peak value for pulse-compressed
 guided waves from path 5-4 occurs around 0.2 ms, as shown in part (c) of Fig.3. This delay in the peak value may be caused by
 reflected guided waves. In summary, while the public dataset can theoretically be used for damage localization, the challenges
-in separating the first arrival of guided waves from damage-induced waves require further investigation
+in separating the first arrival of guided waves from damage-induced waves require further investigation .
+
+![Fig 10](/figures/Fig10.png)
+*Figure 10. The first four subplots in Part (a) and (b) illustrate the optimal correlation coefficients for measurements from paths
+5-1, 5-2, 5-3, 5-4, 6-1, 6-2, 6-3, and 6-4. The corresponding measured temperature and humidity are shown in the fifth and
+sixth subplots. The shadow regions in part(a) and part (b) indicates that the measurements collected from healthy structure to
+the structure with damage D1, and to damage D2, respectively.*
+
+![Fig 11](/figures/Fig11.png)
+*Figure 11. These subplots illustrate the same contents as those in Fig. 10. The shadow regions in parts (a) and (b) indicate
+measurements collected from the structure with damage D2 to the structure with damage D3, and the structure with damage D3
+to the structure with damage D4, respectively.*
+
+![Fig 12](/figures/Fig12.png)
+*Figure 12. These subplots illustrate the same contents as those in Fig. 10. The shadow regions in parts (a) and (b) indicate
+measurements collected from the structure with damage D4 to the structure with damage D5, and the structure with damage D5
+to the structure with damage D6, respectively.*
+
+![Fig 13](/figures/Fig13.png)
+*Figure 13. These subplots illustrate the same contents as those in Fig. 10. The shadow regions in parts (a) and (b) indicate
+measurements collected from the structure with damage D6 to the structure with damage D7, and the structure with damage D7
+to the structure with damage D8, respectively.*
+
+![Fig 14](/figures/Fig14.png)
+*Figure 14. These subplots illustrate the same contents as those in Fig. 10. The shadow regions in parts (a) and (b) indicate
+measurements collected from the structure with damage D8 to the structure with damage D9, and the structure with damage D9
+to the structure with damage D10, respectively.*
+
+![Fig 15](/figures/Fig15.png)
+*Figure 15. These subplots illustrate the same contents as those in Fig. 10. The shadow regions in parts (a) and (b) indicate
+measurements collected from the structure with damage D10 to the structure with damage D11, and the structure with damage
+D11 to the structure with damage type D12, respectively.*
+
+![Fig 16](/figures/Fig16.png)  
+*Figure 16. These subplots illustrate the same contents as those in Fig. 10. The shadow regions indicate measurements
+collected from the structure with damage D12 to the structure with damage D13.*
