@@ -120,3 +120,65 @@ sunlight, temperature changes can be much more rapid and drastic, sometimes exce
 Fig. 6. The impact of both regular and irregular environmental variations on guided wave distortion is illustrated by changes in
 the (Pearson) correlation coefficient between adjacent guided waves, as shown in Fig. 6 and Fig. 7 and between guided waves
 and their optimal baseline (referred to as optimal correlation coefficients), as depicted in Fig. 9.
+## 1.2 Validation (Challenge) 2: Distortion of Guided Waves Due to Sensor Drift
+Over time, sensors, coupling layers, and data acquisition systems can deteriorate, causing guided waves collected later to differ from those collected earlier, even under the same environmental conditions. This issue, known as sensor drift, presents challenges for long-term structural health monitoring . Fig.9 illustrates sensor drift by showing the optimal correlation coefficients for guided waves from paths 5-1, 5-2, 5-3, and 5-4. Baseline guided waves were collected in July 2019, and the optimal correlation coefficient for guided waves from a given path, such as 5-1, is determined by comparing them to the baseline guided waves from the same path. As seen in Fig.9, the optimal correlation coefficients peak around July each year. However, while the coefficients for July 2019 approach 1, those for July in subsequent years, like 2020 and 2021, do not, even under similar environmental conditions. This decline is more noticeable for guided waves collected more later, indicating sensor drift. Additionally, sensor drift severity varies across sensors; for example, guided waves from path 5-3 in July 2020 and 2021 show optimal correlation coefficients closer to 1 compared to paths 5-1, 5-2, and 5-4, suggesting more drift in sensors 1, 2, and 4. Sensor drift is a common issue in long-term monitoring, potentially leading to false alarms if not properly addressed through updated baseline datasets, training data, or drift compensation methods. Our public dataset provides a benchmark for evaluating the effectiveness of methods designed to detect damage in the presence of sensor drift or compensate guided waves for sensor drift.
+
+## 1.3 Validation (Challenge) 3: Distortion of Guided Waves Due to Installation Shift
+
+Another challenge is the occurrence of installation shifts during long-term structural health monitoring. Sensors, coupling layers, and data acquisition systems often require repair or updates over time. During the reinstallation of these components, installation shifts may occur. In other words, replaced sensors, coupling layers, or data acquisition and sampling systems may differ from the original ones. Additionally, their positions, such as those of PZT and environmental sensors, may not be exactly the same as before. Consequently, these installation shifts can result in collected guided waves differing from previous ones, even if the environmental and operational conditions remain unchanged . In our long-term monitoring system, we updated brightness and air pressure sensors in September 2018. During this reinstallation, we unintentionally altered the environmental setup and sensor positions, leading to guided waves collected after September being markedly different from those collected earlier. This is illustrated in Fig.9, where the optimal correlation coefficients for 2018 are close to 0, even for guided waves collected in July 2018, which had similar environmental conditions to the baseline measurements from July 2019.  To address this challenge, researchers and engineers should ensure that the same equipment is used and positioned consistently during system updates. Additionally, methods to detect installation shifts under complex and dynamic conditions should be developed, along with compensation techniques to update baselines or training data to mitigate the effects of installation shifts.
+
+![Fig 6](/figures/Fig6.png)
+*Figure 6. The first two subplots in parts (a) and (b) show the correlation coefficients between two adjacent guided waves
+collected from paths 5-1 and 5-2. The corresponding time and humidity are depicted in the third and fourth subplots.*
+![Fig 7](/figures/Fig7.png)
+*Figure 7. This figure presents results similar to those in Fig. 6, but using guided waves from paths 5-1 and 5-2 collected at
+different times.*
+![Fig 8](/figures/Fig8.png)
+*Figure 8. The blue curve in each of the four subplots represents guided waves collected from path 5-4 under different
+conditions: rain, freezing temperatures, direct sunlight, and through-hole damage, as indicated in the title of each subplot. The
+measurement time and temperature are labeled in the legend of each subplot. The background guided wave, marked with gray
+color, shown for comparison, was collected under fair weather conditions, as depicted in Fig. 3.*
+![Fig 9](/figures/Fig9.png)
+*Figure 9. The first four subplots display the optimal correlation coefficients for guided waves collected from paths 5-1, 5-2,
+6-1, and 6-2, respectively. The baseline guided waves were collected in July 2019. The corresponding temperature and
+humidity measurements are shown in the fifth and sixth subplots.*
+
+## 1.4 Validation (Challenge) 4: Distortion of Guided Waves Due to Damage Severity Variation
+
+Figs. 10 to 16 show the optimal correlation coefficients for guided waves collected from the same monitored structure with various types of damage. Each subplot displays 10 days of test data, with five days before and after the introduction of new damage, highlighted in gray. The baseline guided waves for each dataset were collected during the 10 days preceding the test data. For example, in part (a) of Fig. 10, the test guided waves span from April 13th to April 22nd, 2021, covering five days of healthy conditions and five days with damage "D1". The baseline guided waves were collected from April 4th to April 13th.2021. Conversely, part (b) of Fig. 10 illustrates test guided waves from May 13th to May 22nd, 2021, including five days of
+healthy conditions and five days with damage "D2", with the baseline collected from May 4th to May 13th, 2021. Each figure’s
+first four subplots show the optimal correlation coefficients for paths 5-1, 5-2, 5-3, 5-4, 6-1, 6-2, 6-3, and 6-4, using baseline
+guided waves from the corresponding sensor paths.
+For damage D-1, a notable drop in optimal correlation coefficients was observed for guided waves from paths 6-1, 6-2, 6-3,
+and 6-4, but not from paths 5-1, 5-2, 5-3, and 5-4. This decline could be due to rain around April 15th, which also caused a
+coefficient drop, as seen in part (a) of Fig. 10. No significant decline was noted when detecting damage "D2" from healthy
+conditions or damage "D3" from damage "D2", possibly because the dents were too minor to significantly impact the guided
+waves, as illustrated in part (b) of Fig. 10 and part (a) of Fig. 11. In contrast, for damage "D4" and "D5", a slight decline in
+optimal correlation coefficients was observed, suggesting that these dents were deep enough to significantly affect the guided
+waves, as shown in part (b) of Fig. 11 and part (a) of Fig. 12. Larger dents from damage "D6" and damage "D7" resulted in a
+more noticeable decline, as shown in part (b) of Fig. 12 and part (a) of Fig. 13. However, the overall decline in coefficients for
+damage "D3" to "D7" was minor.
+When through-hole damage (from "D8" to "D13") was introduced, a more significant decline in optimal correlation
+coefficients was observed, indicating that these damages had a more substantial impact on the monitored structure, as depicted
+in Figs. 13 to 16. However, irregular environmental variations, such as rain, caused an even more pronounced decline in
+coefficients compared to through-hole damages, as shown in Figs. 15 and 16. Therefore, accurate detection of environmental
+variations is crucial to minimize false alarms.
+
+## 1.5 Validation (Challenge) 5: Damage Localization with this Public Dataset
+Theoretically, the public benchmark dataset can be used to evaluate methods for damage localization under complex and dynamic
+conditions, as each measurement collects 8 ultrasonic guided waves from 4 different receivers and 2 different transmitters. By
+analyzing the arrival time differences of signals induced by damage, the damage location can be determined. However,
+isolating damage-induced signals in this dataset is challenging due to multiple guided wave reflections from the edge of
+the monitored structure for two main reasons. First, the excitation signal duration is relatively long, lasting 1 ms, whereas
+the monitored structure is relatively small, measuring only 53 cm × 53 cm × 3 mm. Given that the guided wave speed is
+approximately 3 to 6 km/s, the time for guided waves to travel from one point to another on the plate is less than 0.2 ms,
+which is shorter than the duration of the chirp excitation signal (1 ms). Second, the positions of the guided wave receivers
+were very close to the plate’s edge. Consequently, before the end of the excitation signal, receivers will have already picked up
+multiple reflections from the plate’s edge. As illustrated in parts (a) and (b) of Fig. 3, determining the first arrival of guided
+waves, which is typically used to separate damage-induced signals for damage localization, is challenging. We also applied
+pulse compression to the guided waves using the excitation signal, a common method to locate the first arrival time by finding
+the peak value of the correlation coefficient between the excitation signal and the guided wave samples. The first arrival
+time for guided waves collected from path 5-4 should be less than 0.1 ms. However, the peak value for pulse-compressed
+guided waves from path 5-4 occurs around 0.2 ms, as shown in part (c) of Fig.3. This delay in the peak value may be caused by
+reflected guided waves. In summary, while the public dataset can theoretically be used for damage localization, the challenges
+in separating the first arrival of guided waves from damage-induced waves require further investigation
