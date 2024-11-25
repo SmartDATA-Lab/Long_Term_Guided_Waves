@@ -48,7 +48,7 @@ frequency ranging from 5 kHz to 350 kHz using sensors 5 and 6. Each response was
 Measurements were taken approximately every 8.6 seconds, with only the first 10, 000 samples (10 ms) recorded for each
 guided wave, as shown in part (a) of Fig. 3. Details of the sensors and data acquisition system are provided in Table.1
 
-![Exp Setup](/figures/Fig2.png)
+![ExpSetup](/figures/Fig2.png)
 *Figure 2. Figure (a) shows the monitored structure, an aluminum plate, positioned on the first layer of a shelf. The data acquisition
 system was housed in a foam box on the second layer of the shelf. Figures (b) and (c) display the locations of the temperature,
 brightness, air pressure, and humidity sensors, which were mounted on the exterior of the foam box.*
