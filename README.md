@@ -100,3 +100,23 @@ damage and values from 1 to 13 denoting damage types from "D1" to "D13", as show
 "weather tag" records the weather conditions from public weather website during each measurement, ranging from 0 to 5,
 with 0 representing "fair weather" and 1 to 5 corresponding to "precipitation," "light rain," "rain," "snow," and "mixed weather,"
 respectively. Note that the 15-mile distance between the meteorological station and the experiment location may introduce some imprecision in the weather records. The key information ("guided wave", "datetime", "temperature", "humidity", "brightness", "air pressure", "damage tag", and "weather tag") for each measurement file is explained under the "data inf" key within each file.
+
+# Technical Validation
+The study leverages correlation coefficients between adjacent guided waves, as well as optimal correlation coefficients with baseline guided waves, to validate structural health challenges present in the public dataset—challenges that are also common in practical structural health monitoring under uncontrolled and highly dynamic conditions. This technical validation helps researchers recognize the characteristics and challenges of guided waves obtained from real-world dynamic environments, aiding in the development of effective methods for practical structural health monitoring.
+
+1. **Challenge 1**: Both regular and irregular environmental variations alter guided waves, with irregular variations like rain and snow sometimes causing greater impact than through-hole damage.
+
+2. **Challenge 2**: Sensor drift over time can create differences in guided waves even under similar environmental conditions, complicating baseline comparisons and data-driven-based damage detection.
+
+3. **Challenge 3**: Installation shifts, occurring during repairs or updates to the monitoring system, can lead to differences in guided waves, affecting baseline comparisons and data-driven-based 
+damage detection.
+
+4. **Challenge 4**: Certain types of damage may not significantly alter guided waves, making detection difficult.
+
+## 1.1 Validation (Challenge) 1: Distortion of Guided Waves Due to Environmental Variations259
+Environmental variations can be classified into regular and irregular categories based on their frequency of occurrence. Regular environmental variations, such as daily changes in temperature and humidity, are consistent and prevalent throughout long-term monitoring. In contrast, irregular environmental variations, such as rain and snow, occur less frequently. Typically, regular environmental variations change gradually, while irregular variations fluctuate rapidly and dramatically.For instance, daily temperature changes are
+usually less than 2 ◦C per hour and relatively stable. However, during irregular environmental conditions, like rain or direct
+sunlight, temperature changes can be much more rapid and drastic, sometimes exceeding 10 ◦C per hour, as shown in part (b) of
+Fig. 6. The impact of both regular and irregular environmental variations on guided wave distortion is illustrated by changes in
+the (Pearson) correlation coefficient between adjacent guided waves, as shown in Fig. 6 and Fig. 7 and between guided waves
+and their optimal baseline (referred to as optimal correlation coefficients), as depicted in Fig. 9.
