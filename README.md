@@ -77,3 +77,7 @@ damage can be found in Table 2, and the damage positions and shapes are illustra
 were generated, labeled from "D1" to "D13", with the severity of the damage increasing progressively. This dataset can serve as
 a benchmark for evaluating the performance of guided wave-based structural health monitoring method in identifying damage
 and assessing damage severity.
+
+![Fig 5](/figures/Fig5.png)
+*Figure 5. Six types of damage were created sequentially on the center of the same aluminum plate from April 17, 2021 to
+September 19, 2021.*
