@@ -217,3 +217,11 @@ D11 to the structure with damage type D12, respectively.*
 ![Fig 16](/figures/Fig16.png)  
 *Figure 16. These subplots illustrate the same contents as those in Fig. 10. The shadow regions indicate measurements
 collected from the structure with damage D12 to the structure with damage D13.*
+
+# Citing Open Guided Waves
+Copyright (C) 2021-2022  Kang Yang. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  
+You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.  
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+IF THIS CODE IS USED FOR A RESEARCH PUBLICATION, please cite (https://arxiv.org/abs/2203.03735):  
+Kang Yang, et al. "Dataset on Guided Waves collected from Long-Term Structural Health Monitoring under Uncontrolled and Highly Dynamic Conditions". 
