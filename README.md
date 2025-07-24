@@ -1,6 +1,6 @@
 # Open Guided Waves
 
-This GitHub repository is created in support of the paper **"Open Guided Waves: Long-Term Guided Wave Based Structural Health Monitoring under Uncontrolled and Highly Dynamic Conditions"**. You can access the full article [here](https://.........).  
+This GitHub repository is created in support of the paper **"Open Guided Waves: Long-Term Guided Wave Based Structural Health Monitoring under Uncontrolled and Highly Dynamic Conditions"**. You can access the full article [here](https://doi.org/10.1038/s41597-025-05300-5).  
 This repository provides an introduction to the **Open Guided Waves**. We provide a long-term, real-world structural health monitoring (SHM) benchmark dataset to support damage detection and analysis under varying environmental conditions.
 
 ## Abstract
@@ -89,7 +89,7 @@ September 19, 2021.*
 Approximately five years of monitoring data are stored in 56 ".pickle" files. Each file is named in the format "measurements
 year_month.pickle," where the numbers in the filename represent the year and month of the measurements it contains. For
 example, measurements from April 2018 are stored in "measurements 2018_04.pickle". These files are publicly ac-
-cessible through the provided website link (https://figshare.com/articles/dataset/Open_Guided_Waves/26820892). Each ".pickle" file is a dictionary with 10 keys, as shown in Table 3. The key "guided wave" contains 8
+cessible through the provided website link (https://doi.org/10.6084/m9.figshare.28112504). Each ".pickle" file is a dictionary with 10 keys, as shown in Table 3. The key "guided wave" contains 8
 channels of ultrasonic guided waves. In the "measurements 2018_04.pickle" file, for example, the "guided wave"
 matrix has dimensions of 14, 997 × 8 × 2000, representing 14, 997 measurements with each measurement including 8 channels
 of guided waves from paths 5-1, 5-2, 5-3, 5-4, 6-1, 6-2, 6-3, and 6-4. Each guided wave comprises 2000 samples and lasts
@@ -223,5 +223,5 @@ Copyright (C) 2021-2022  Kang Yang. This program is free software: you can redis
 You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-IF THIS CODE IS USED FOR A RESEARCH PUBLICATION, please cite (https://arxiv.org/abs/2203.03735):  
+IF THIS CODE IS USED FOR A RESEARCH PUBLICATION, please cite (https://doi.org/10.1038/s41597-025-05300-5):  
 Kang Yang, et al. "Dataset on Guided Waves collected from Long-Term Structural Health Monitoring under Uncontrolled and Highly Dynamic Conditions". 
