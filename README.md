@@ -1,3 +1,9 @@
+> ## ⚠️ **NOTICE**
+> **THE ORIGINAL DATASET LINK IS NO LONGER AVAILABLE.**  
+> **PLEASE USE THE DATASET PROVIDED AT THE LINK BELOW:**  
+>  
+> **[Dataset link](https://www.dropbox.com/scl/fo/cigpra8cde187g7321etz/ANJMc309bWNDdNDe9NdJCQ8?rlkey=bdv8xwkgxybo4umz4mbyc1mnr&dl=0)**
+
 # Open Guided Waves
 
 This GitHub repository is created in support of the paper **"Open Guided Waves: Long-Term Guided Wave Based Structural Health Monitoring under Uncontrolled and Highly Dynamic Conditions"**. You can access the full article [here](https://doi.org/10.1038/s41597-025-05300-5).  
